@@ -22,6 +22,7 @@ function start(response) {
         'context.beginPath();'+
         'context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);'+
         'context.fillStyle = "blue";'+
+        'context.fillStyle = "green";'+
         'context.fill();'+
         'context.lineWidth = 5;'+
         'context.strokeStyle = "#003300";'+
